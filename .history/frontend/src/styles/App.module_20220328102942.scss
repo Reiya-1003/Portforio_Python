@@ -1,0 +1,261 @@
+
+@keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeDownAnime{
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+body{
+    margin: 0;
+    padding: 0;
+}
+.headerbg{
+    background-image: url('../image/Header.jpg');
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 100%;
+    min-height: 920px;
+
+   
+    .youso{
+    
+        max-width: 1080px;
+        margin-top: -24px;
+       padding-left: 20%;
+       padding-right: 20%;
+       
+        display: flex;
+        justify-content: space-between;
+        .koyouso{
+            margin-top: 0;
+            padding-top: 40px;
+           text-decoration: underline;
+           text-decoration-color: white;
+            color: white;
+            font-size: 36px;
+            // 上から
+            animation-name:fadeDownAnime;
+            animation-duration:0.5s;
+            animation-fill-mode:forwards;
+            opacity:0;
+            &:hover{
+                opacity: 0.6;
+                transform: scale(1.1);
+                cursor: pointer; 
+            }
+        }
+       
+    }
+    .title{
+        color:white;
+        font-size: 96px;
+        text-align:center;
+        line-height: 100%;
+        margin-top: 20%;
+        //したから
+        animation-name:fadeUpAnime;
+animation-duration:0.5s;
+animation-fill-mode:forwards;
+opacity:0;
+    }
+    
+}
+
+.whitecontents{
+   
+    .whitetitle{
+        font-size: 72px;
+        text-align: center;
+        margin-top: 50px;
+        text-decoration: underline;
+        text-decoration-color:orange;
+        text-decoration-thickness: 20px;
+        text-underline-offset: 3px;
+
+        animation-name:fadeDownAnime;
+            animation-duration:0.5s;
+            animation-fill-mode:forwards;
+            opacity:0;
+    }
+    .contena{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        .myPhot{
+            margin-top: 5%;
+            width: 300px;
+            height: 300px;
+            border-radius:50%;
+        }
+        .keireki{
+            width: 500px;
+            height: 500px;
+            display:flex;
+            flex-flow: column;
+            margin-left: 10%;
+         .top{
+             font-size: 36px;
+             text-align: center;
+             margin-bottom: 10%;
+         }   
+         .second{
+             font-size: 22px;
+             text-align: center;
+             margin-bottom: 10%;
+             .year{
+                 margin: 0;
+                 font-size: small;
+             }
+             .company{
+                margin: 0;
+                font-size: medium;
+             }
+         }
+        }
+    }
+    .itembox{
+        padding-left: 20%;
+       padding-right: 20%;
+       display: flex;
+       justify-content: space-around;
+       margin-top: 15%;
+
+       .item{
+           width: 100px;
+           height: 100px;
+           &:hover{
+            opacity: 0.6;
+            transform: scale(1.1);
+            cursor: pointer; 
+        }
+       }
+    }
+
+    .address{
+        font-size: 48px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    
+}
+
+.blackcontents{
+    // height: 990px
+    padding-top: 1%;
+    background-color: black;
+    padding-bottom: 5%;
+    .blacktitle{
+        color: white;
+        font-size: 72px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 15%;
+        text-decoration: underline;
+        text-decoration-color:orange;
+        text-decoration-thickness: 20px;
+        text-underline-offset: 3px;
+    }
+    .skill{
+        color: white;
+        
+        display:flex;
+        flex-flow: column;
+        margin-top: 5%;
+
+        .title{
+            font-size: 36px;
+            text-align: center;
+            color: white;
+            margin-bottom: 5%;
+        }
+
+        .content{
+            margin-top: 2%;
+            margin-left: 15%;
+            margin-right: 15%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 5%;
+            .janru{
+               width: 20%;
+               font-size: small;
+               p{
+                margin-bottom: 1%;
+            }
+            }
+            .nakami{
+                width: 80%;
+                font-size: small;
+              
+                p{
+                    margin-bottom: 1%;
+                }
+            }
+        }
+    }
+
+    .seisaku{
+        font-size: 36px;
+            text-align: center;
+            color: white;
+            margin-top: 5%;
+            margin-bottom: 5%;
+    }
+
+    .itembox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 10%;
+        &::after{
+            display: block;
+            content:"";
+            width: 350px;
+            height: 450px;
+        }
+
+        .item{
+            width: 30%;
+            height: 300px;
+            color: white;
+            background-color:black;
+            margin-top: 5%;
+
+            .phot{
+                object-fit: cover;
+                width: 100%;
+                height: 70%;
+            }
+            .title{
+                font-size: 20px;
+            }
+            .detail{
+                font-size: 12px;
+            }
+        }
+    }
+
+
+}

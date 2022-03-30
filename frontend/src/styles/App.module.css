@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.headerbg {
+  background-image: url("../image/Header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-width: 1440px;
+  height: 100%;
+  min-height: 920px;
+}
+
+.headerbg .youso {
+  max-width: 1440px;
+  margin-top: -24px;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headerbg .youso .koyouso {
+  margin-top: 0;
+  padding-top: 40px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  color: white;
+  font-size: 36px;
+}
+
+.headerbg .youso .koyouso:hover {
+  opacity: 0.6;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.headerbg .title {
+  color: white;
+  font-size: 96px;
+  text-align: center;
+  line-height: 100%;
+  margin-top: 20%;
+}
+
+.whitecontents {
+  height: 990px;
+}
+
+.whitecontents .whitetitle {
+  font-size: 72px;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
+  text-decoration-thickness: 20px;
+  text-underline-offset: 3px;
+}
+
+.whitecontents .contena {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10%;
+}
+
+.whitecontents .contena .myPhot {
+  width: 400px;
+  height: 450px;
+}
+
+.whitecontents .contena .keireki {
+  width: 630px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin-left: 10%;
+}
+
+.whitecontents .contena .keireki .top {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.whitecontents .contena .keireki .second {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.whitecontents .itembox {
+  padding-left: 20%;
+  padding-right: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15%;
+}
+
+.whitecontents .itembox .item {
+  width: 200px;
+  height: 200px;
+}
+
+.whitecontents .itembox .item:hover {
+  opacity: 0.6;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.whitecontents .address {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.blackcontents {
+  padding-top: 1%;
+  background-color: black;
+  padding-bottom: 5%;
+}
+
+.blackcontents .blacktitle {
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
+  text-decoration-thickness: 20px;
+  text-underline-offset: 3px;
+}
+
+.blackcontents .skill {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin-top: 5%;
+}
+
+.blackcontents .skill .title {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+
+.blackcontents .skill .content {
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.blackcontents .seisaku {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+}
+
+.blackcontents .itembox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.blackcontents .itembox::after {
+  display: block;
+  content: "";
+  width: 350px;
+  height: 450px;
+}
+
+.blackcontents .itembox .item {
+  width: 350px;
+  height: 450px;
+  color: white;
+  background-color: gray;
+  margin-top: 5%;
+}
+
+.blackcontents .itembox .item .phot {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 60%;
+}
+
+.blackcontents .itembox .item .title {
+  font-size: 36px;
+}
+
+.blackcontents .itembox .item .detail {
+  font-size: 24px;
+}
+/*# sourceMappingURL=App.module.css.map */

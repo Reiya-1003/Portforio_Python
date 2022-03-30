@@ -1,0 +1,7 @@
+django-heroku
+gunicorn
+django
+django-filter
+djangorestframework
+pytz
+psycopg2
