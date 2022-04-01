@@ -15,7 +15,7 @@ const Practice = () => {
   useEffect(() => {
     const fetchData = async () =>{
     const result = await axios(
-      'http://reru1003.pythonanywhere.com/api/posts/' //pythonのGet
+      'http://localhost:8000/api/posts/' //pythonのGet
     );
 　　 let newposts = result.data
     setPosts(newposts);
