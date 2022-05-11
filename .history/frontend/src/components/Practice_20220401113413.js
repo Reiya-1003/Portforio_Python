@@ -61,11 +61,11 @@ const Items = posts.map((post,index)=>{
                 </div>
                 <div className={styles.nakami}>
                 <p>Linux, MacOS Big Sur 11.5.2</p>
-                <p>JavaScript, TypeScript, Java, Python, PHP, SQL, HTML, CSS</p>
+                <p>JavaScript, TypeScript, Python, PHP, SQL, HTML, CSS</p>
                 <p>React.js(16.8以降,Redux,React-Router), Next.js, Django, Laravel, express, Vue.js, Nuxt.js,</p> 
                 <p>Jest, Node.js, djangorest_framewok, Material-UI, Apollo, PHPUnit, Ajax, Axios, Vuetify, </p> 
                 <p>MaterializeCSS, GoogleAppsScript, Sass, TailwindCSS, vue-virtual-scroll-list, NextAuth</p>
-                <p>Docker, AWS, nginx, mongoDB, MySQL, NoSQL(Firebase CloudFireStore), Spring Boot</p>
+                <p>Docker, AWS, nginx, mongoDB, MySQL, NoSQL(Firebase CloudFireStore),</p>
                 <p>Git, VSCode, Redmine</p>
             
                 </div>
